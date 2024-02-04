@@ -1,0 +1,27 @@
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin: 0 10px;
+  }
+  
+  .nav-item:last-child {
+    margin-left: auto; 
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+    display: block;
+  }
+  
+  .nav-link:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  

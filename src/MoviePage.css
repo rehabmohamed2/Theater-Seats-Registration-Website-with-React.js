@@ -1,0 +1,94 @@
+/* Date-Time Calendar Container */
+.datetime-calendar {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  /* Other styling can be added here */
+  
+  .text-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .text-option {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .selected {
+    background-color: #f0f0f0;
+  }
+
+  /* ... (existing styles) */
+
+/* styles.css */
+
+
+  
+  /* Seats container */
+  .seats-map {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Seats grid */
+  .seats-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 40px);
+    gap: 5px;
+    margin-top: 20px;
+  }
+  
+  /* Individual seat */
+  .seat {
+    width: 40px;
+    height: 40px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Reserved seat style */
+  .reserved {
+    background-color: red;
+    cursor: not-allowed;
+  }
+  
+  /* Disabled seat style */
+  .disabled {
+    background-color: yellow;
+    cursor: not-allowed;
+  }
+  
+  .food-list-container {
+    padding: 20px;
+  }
+  
+  .food-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .food-item img {
+    max-width: 100px;
+    margin-top: 10px;
+  }
+  
+  
+  

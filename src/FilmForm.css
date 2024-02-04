@@ -1,0 +1,39 @@
+.film-form-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .film-form-container form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .film-form-container form label span {
+    font-size: 16px;
+    margin-right: 5px;
+  }
+  
+  .film-form-container form input,
+  .film-form-container form textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .film-form-container form textarea {
+    min-height: 100px;
+  }
+  
+  .film-form-container form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: auto;
+  }

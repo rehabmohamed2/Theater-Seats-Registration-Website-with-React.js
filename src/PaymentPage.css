@@ -1,0 +1,4 @@
+.food-scroll-container {
+    max-height: 300px; /* Set the maximum height based on your design */
+    overflow-y: auto;
+  }
