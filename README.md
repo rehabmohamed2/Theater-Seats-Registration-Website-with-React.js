@@ -1,3 +1,34 @@
+A theatre booking system is a project that allows users to check for available seats
+in the theatre and can even book them at the same time. It happens when people
+go for a movie and they return in disappointment due to houseful. Hence the
+project is intended to overcome this situation by automating the manual booking
+system, online. Users can make prior bookings for desired seats for their desired
+show at desired time and cost. The system provides additional optional things like
+food packages, discounts etc. It also calculates all the associated charges incurred
+in booking the ticket and the items. This is an advanced booking system that
+makes user customize their show according to their needs.
+The modules of the project are listed as below:
+ Admin Login: The system has an admin who solely controls all the system
+functions. He can update all the theatre information and can even make
+modifications.
+ User login/registration: Every user has to create an account into the system
+by registering themselves. He can then view all the theatre details.
+ Seat availability check: The system consistently checks for the seats that
+are booked and that are available. The system distinguishes it with colors so
+that users get a clear idea. The seats that are already booked are marked
+yellow, and the one that are available, marked grey.
+ Seat booking online for date and time: The booking system can be seen
+according to date and time slots. Use can select to book available seats as
+per required date and time slot.
+ Additional facilities: User may even opt to book for optional things like food
+and other.
+ Automatic cost calculation: The system calculates amount for all the
+booked things and generates an online bill for the users.
+ Seat cancellation: User may even cancel the bookings that have been done
+before and can book for another one.
+This Application uses angular as a front-end and local storage as the back-end
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
